@@ -67,6 +67,16 @@ amf_metrics_spec_def_t amf_metrics_spec_def_global[_AMF_METR_GLOB_MAX] = {
     .name = "gnb",
     .description = "gNodeBs",
 },
+[AMF_METR_GLOB_GAUGE_GNB_LAT] = {
+    .type = OGS_METRICS_METRIC_TYPE_GAUGE,
+    .name = "gnb_lat",
+    .description = "gNodeBs_lat",
+},
+[AMF_METR_GLOB_GAUGE_GNB_LON] = {
+    .type = OGS_METRICS_METRIC_TYPE_GAUGE,
+    .name = "gnb_lon",
+    .description = "gNodeBs_lon",
+},
 /* Global Counters: */
 [AMF_METR_GLOB_CTR_RM_REG_INIT_REQ] = {
     .type = OGS_METRICS_METRIC_TYPE_COUNTER,
